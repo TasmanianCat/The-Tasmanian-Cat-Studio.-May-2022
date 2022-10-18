@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Tasmanian Cat Studio</title>
+    <meta name="author" content="The Tasmanian Cat Studio">
+    <meta name="description" content="Адрес и телефоны для связи со специалистом по созданию сайтов в Тольятти">
+    <meta name="keywords"
+        content="где заказать сайт, создание сайтов тольятти, контакты специалиста по разработке сайтов">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88850876, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/88850876" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<!--!-->
+<!--?-->
+<!--TODO-->
+<!--....-->
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+
+            <div class="header-items">
+                <div class="header-items__1">
+                    <a href="index.html"><img class="logo" onclick="clickedLogo()" id="logo"
+                            src="img/the-tasmanian-cat.jpg" alt="logo"></a>
+                    <h1>The Tasmanian Cat Studio</h1>
+                    <h3>Создание простых и недорогих сайтов</h3>
+                </div>
+
+            </div>
+        </header>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">Контакты</a>
+            <a href="index.html">Главная</a>
+            <a href="price.html">Цены</a>
+            <a href="about.html">Обо мне</a>
+            <a href="inprogress.html">Календарь</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <main class="main">
+            <div class="first-block-main">
+                <h2>Свяжитесь со мной, выбрав удобный способ</h2>
+
+
+                <div class="class__form">
+                    <!-- onsubmit="clickSubmitButtonFunction()" is a way to confirm that a letter was submitted -->
+                    <form id="form" onsubmit="clickSubmitButtonFunction()">
+                        <label>Имя:</label>
+                        <input type="text" name="name" required placeholder="Ваше имя.." maxlength="12" autofocus />
+                        <label>Номер телефона <small>(формат: 123-456-7890)</small>,
+                            без кода страны +7 или 8:</label>
+                        <input type="tel" name="phone" required placeholder="Ваш номер телефона.."
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                        <label>E-mail:</label>
+                        <input type="email" name="email" required placeholder="Ваш e-mail.."
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+                        <label>Выбирете способ получения ответа на ваше письмо:</label>
+                        <select name="channel">
+                            <option disabled selected value> -- Выбрать из списка -- </option>
+                            <option value="email">Email</option>
+                            <option value="viber">Viber</option>
+                            <option value="telegram">Telegram</option>
+                            <option value="whatsapp">WhatsApp</option>
+                        </select>
+                        <label>Тема письма:</label>
+                        <input type="text" name="subject" placeholder="Ключевая информация.." maxlength="30" />
+                        <label>Текст письма:</label>
+                        <textarea type="text" name="message"
+                            placeholder="Напишите текст вашего письма в этом поле.."></textarea>
+                        <div class="checkboxform">
+                            <input id="checkboxformid" type="checkbox" name="formAgreement" checked required /><span>Я
+                                согласен на
+                                отправку и
+                                дальнейшую обработку моих персональных данных, исключительно с целью получения ответа на
+                                моё
+                                обращение.</span>
+                        </div>
+
+                        <input type="submit" value="Отправить" />
+                    </form>
+                </div>
+
+                <!-- The message is after an user submitted the contact form -->
+                <script>
+                    function clickSubmitButtonFunction() {
+                        alert("Ваше письмо успешно отправлено!");
+                    }
+                </script>
+                <!-- The message is after an user submitted the contact form -->
+
+                <p class="p-main">Мой номер телефона: +7 (937) 237-4089.</p>
+                <p class="p-main">Ссылки на соцсети:</p>
+                <div id="social_medea">
+                    <a href="https://join.skype.com/invite/pxbJ0r6l6qdU" class="fa fa-skype"></a>
+                    <a href="https://t.me/thetasmaniancatstudio" class="fa fa-telegram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=79372374089" class="fa fa-whatsapp"></a>
+                    <a href="https://viber://add?number=79372374089" class="fa fa-viber"></a>
+                </div>
+                <h2>Адрес</h2>
+                <p class="p-main">Если вам необходима личная встреча со мной, то мы сможем встретиться с вами,
+                    предварительно созвонившись, по адресу:
+                </p>
+                <p class="p-main">445043, Россия, Самарская область, город Тольятти, Южное шоссе, дом 165-А, корпус 1.2,
+                    офис № 501 (территория технопарка «Жигулевская долина»).</p>
+                <div>
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adc7051587da94e59ad4e2d16a9dbb04d8f7ccfb9b3139b6011a233603dcfc715&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <p class="p-main-contact-last">Свяжитесь со мной, если у вас возникли какие-либо вопросы. Постараюсь
+                    ответить вам как
+                    можно оперативнее.</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>The Tasmanian Cat Studio</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/letter.js"></script>
+</body>
+
+</html>
